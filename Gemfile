@@ -4,6 +4,7 @@ ruby '2.2.0'
 
 gem 'bundler'
 gem 'haml'
+gem 'tilt'
 gem 'roda'
 gem 'roda-symbolized_params'
 gem 'rom'
@@ -15,6 +16,8 @@ gem 'dotenv'
 gem 'activesupport'
 gem 'request_store'
 gem 'rake'
+
+gem 'countries'
 
 group :test do
   gem 'rspec'

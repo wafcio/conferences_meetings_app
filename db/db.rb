@@ -3,7 +3,7 @@ require 'virtus'
 
 class DBClass
   CSV_SETTINGS = [
-    { name: :default, options: { encoding: 'utf-8', col_sep: ';' } }
+    { name: :default, options: { encoding: 'utf-8' } }
   ]
 
   def setup

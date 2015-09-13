@@ -1,2 +1,51 @@
-id;name
-1;wroc_love.rb
+Id,Conference,Year,Start Date,End Date,Country,City,Lat,Lng,GeoPrecision
+1,Scottish Ruby Conference,2010,26.03.2010,27.03.2010,United Kingdom,Edinburgh,55.9531,-3.1889,-
+2,Scottish Ruby Conference,2011,08.04.2011,09.04.2011,United Kingdom,Edinburgh,55.9531,-3.1889,-
+3,Scottish Ruby Conference,2012,29.06.2012,30.06.2012,United Kingdom,Edinburgh,55.9531,-3.1889,-
+4,Scottish Ruby Conference,2013,12.05.2013,13.05.2013,United Kingdom,Crieff,56.3757,-3.8426,-
+4,Scottish Ruby Conference,2014,12.05.2014,13.05.2014,United Kingdom,Perthshire,56.5000,-4.0000,-
+5,Baruco,2012,08.09.2012,09.09.2012,Spain,Barcelona,41.3833,2.1833,-
+6,Baruco,2013,14.09.2013,15.09.2013,Spain,Barcelona,41.3833,2.1833,-
+7,Baruco,2014,11.09.2014,13.09.2014,Spain,Barcelona,41.3833,2.1833,-
+8,Full Stack Fest,2015,01.09.2015,05.09.2015,Spain,Barcelona,41.3901415,2.1362916,-
+9,RubyConf Portugal,2014,13.10.2014,14.10.2014,Portugal,Braga,41.5496583,-8.4225863,-
+10,RubyConf Portugal,2015,14.09.2015,15.09.2015,Portugal,Braga,41.5496583,-8.4225863,+
+11,Frozen Rails,2010,07.05.2010,07.05.2010,Finland,Helsinki,60.1708,24.9375,-
+12,Frozen Rails,2011,20.09.2011,21.09.2011,Finland,Helsinki,60.1708,24.9375,-
+13,Frozen Rails,2012,20.09.2012,21.09.2012,Finland,Helsinki,60.1708,24.9375,-
+14,Frozen Rails,2014,11.09.2014,12.09.2014,Finland,Helsinki,60.1708,24.9375,-
+15,ArrrrCamp,2011,07.10.2011,07.10.2011,Belgium,Ghent,51.0498506,3.7232832,-
+16,ArrrrCamp,2012,04.10.2012,05.10.2012,Belgium,Ghent,51.0498506,3.7232832,-
+17,ArrrrCamp,2013,03.10.2013,04.10.2013,Belgium,Ghent,51.0498506,3.7232832,-
+18,ArrrrCamp,2014,02.10.2014,03.10.2014,Belgium,Ghent,51.0498506,3.7232832,-
+19,ArrrrCamp,2015,01.10.2015,02.10.2015,Belgium,Ghent,51.0498506,3.7232832,+
+20,EuRuKo,2006,04.11.2006,05.11.2006,Germany,Munich,48.1333,11.5667,-
+21,EuRuKo,2008,29.03.2008,30.03.2008,Czech Republic,Prague,50.0833,14.4167,-
+22,EuRuKo,2009,09.05.2009,10.05.2009,Spain,Barcelona,41.3833,2.1833,-
+23,EuRuKo,2010,29.05.2010,30.05.2010,Poland,Krakow,50.0614,19.9383,-
+24,EuRuKo,2011,28.05.2011,29.05.2011,Germany,Berlin,52.5167,13.3833,-
+25,EuRuKo,2012,01.06.2012,02.06.2012,Netherlands,Amsterdam,52.3667,4.9000,-
+26,EuRuKo,2013,28.06.2013,29.06.2013,Greece,Athens,37.9667,23.7167,-
+27,EuRuKo,2015,17.10.2015,18.10.2015,Austria,Salzburg,47.8070839,13.0416027,+
+28,wroc_love.rb,2012,10.03.2012,11.03.2012,Poland,Wroclaw,51.111041,17.0530925,-
+29,wroc_love.rb,2013,01.03.2013,03.03.2013,Poland,Wroclaw,51.111041,17.0530925,-
+30,wroc_love.rb,2014,14.03.2014,16.03.2014,Poland,Wroclaw,51.111041,17.0530925,-
+31,wroc_love.rb,2015,13.03.2015,15.03.2015,Poland,Wroclaw,51.111041,17.0530925,+
+32,RubyConfLT,2015,21.03.2015,21.03.2015,Lithuania,Vilnius,54.6833,25.2833,-
+33,Bath Ruby,2015,13.03.2015,13.03.2015,United Kingdom,Bath,51.3862021,-2.3628355,-
+34,Bath Ruby,2016,11.03.2016,11.03.2016,United Kingdom,Bath,51.3862021,-2.3628355,+
+35,Brighton Ruby Conference,2014,21.07.2014,21.07.2014,United Kingdom,Brighton,50.8429,-0.1313,-
+36,Brighton Ruby Conference,2015,20.07.2015,20.07.2015,United Kingdom,Brighton,50.8429,-0.1313,-
+37,#inspect,2013,25.03.2013,29.03.2013,Belgium,Brussels,50.8500,4.3500,-
+39,#inspect,2015,01.07.2015,02.07.2015,France,Paris,48.8567,2.3508,-
+40,RuPy,2009,07.11.2009,08.11.2009,Poland,Poznan,52.2400,16.9167,-
+41,RuPy,2011,14.10.2011,16.10.2011,Poland,Poznan,52.2400,16.9167,-
+42,RuPy,2012,16.11.2012,18.11.2012,Czech Republic,Brno,49.2000,16.6167,-
+43,RuPy,2013,11.10.2013,14.10.2013,Hungary,Budapest,47.4925,19.0514,-
+44,RubyDay,2011,10.07.2011,10.07.2011,Italy,Milan,45.4667,9.1833,-
+45,RubyDay,2012,15.06.2012,15.06.2012,Italy,Milan,45.4667,9.1833,-
+46,RubyDay,2013,14.06.2013,14.06.2013,Italy,Milan,45.4667,9.1833,-
+47,RubyDay,2014,26.09.2014,26.09.2014,Italy,Roncade,45.6333,12.3667,-
+48,RubyDay,2015,13.11.2015,13.11.2015,Italy,Turin,45.0626849,7.6881503,+
+49,ROSSConf,2015,26.09.2015,26.09.2015,Germany,Berlin,52.5287037,13.4161895,+
+50,ROSSConf,2015,25.04.2015,25.04.2015,Austria,Vienna,48.186096,16.3552075,+

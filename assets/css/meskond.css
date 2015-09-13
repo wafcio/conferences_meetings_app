@@ -1,0 +1,43 @@
+nav.navbar {
+  background-color: #1E88E5;
+  background-image: none;
+  margin-bottom: 0;
+}
+
+nav.navbar a.navbar-brand {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.open>a {
+  background-image: none;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+  color: #fff;
+  background-color: #1565C0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #ccc;
+}
+
+hr {
+  height: 3px;
+  color: #1E88E5;
+  background-color: #1E88E5;
+  border: none;
+}
+
+.container.events big strong {
+  color: #1E88E5;
+}

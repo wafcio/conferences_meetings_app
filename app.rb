@@ -5,6 +5,7 @@ require 'rack'
 require 'roda'
 require 'logger'
 require 'request_store'
+require 'tilt/haml'
 
 require_relative 'db/db'
 
@@ -15,6 +16,8 @@ class App < Roda
   plugin :hooks
   plugin :all_verbs
   plugin :symbolized_params
+  plugin :assets, css: ['meskond.css'], js: ['meskond.js']
+  plugin :static, ['/images'], root: 'assets'
 
   if [:production, :development].include?(ENV.fetch('RACK_ENV').to_sym)
     use Rack::CommonLogger, Logger.new(STDOUT)
@@ -34,24 +37,18 @@ class App < Roda
   DB.setup
 
   route do |r|
+    r.assets
+
     r.root do
+      require 'json'
+      require 'countries'
+      require_relative 'services/events/get_event'
+
+      @current_year = params[:year] ? params[:year].to_i : Date.today.year
+      @years = ROM.env.relation(:events).limit_fields(:year).to_a.map{ |element| element[:year] }.uniq.sort
+      @events = GetEvents.call(@current_year)
+
       view('home')
     end
-
-    # require_relative 'apps/products'
-    # require_relative 'apps/sessions'
-    # require_relative 'apps/users'
-
-    # r.on 'login' do
-    #   r.route 'sessions'
-    # end
-
-    # r.on 'products' do
-    #   r.route 'products'
-    # end
-
-    # r.on 'users' do
-    #   r.route 'users'
-    # end
   end
 end

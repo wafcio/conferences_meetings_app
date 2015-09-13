@@ -4,5 +4,35 @@
     %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}/
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
     %title Meskond - Conference Directory
+
+    %link{ href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css", rel: "stylesheet" }
+    %link{ href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css", rel: "stylesheet" }
+    %link{ href: "http://lipis.github.io/flag-icon-css/css/flag-icon.css", rel: "stylesheet" }
+
+    %script{ type: "text/javascript",  src: "http://code.jquery.com/jquery-2.1.4.min.js" }
+    %script{ src: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" }
+    %script{ src: "http://maps.googleapis.com/maps/api/js?libraries=weather,geometry,visualization,places,drawing&amp;sensor=false" }
+
+    = assets(:css)
+    = assets(:js)
   %body
+    %nav.navbar.navbar-default.navbar-static-top
+      .container
+        .navbar-header
+          %button.navbar-toggle.collapsed{"aria-controls" => "navbar", "aria-expanded" => "false", "data-target" => "#navbar", "data-toggle" => "collapse", :type => "button"}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a.navbar-brand{ href: '/' } Meskond
+        #navbar.navbar-collapse.collapse
+          %ul.nav.navbar-nav.navbar-right
+            %li.dropdown
+              %a.dropdown-toggle{"aria-expanded" => "false", "aria-haspopup" => "true", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+                = @current_year
+                %span.caret
+              %ul.dropdown-menu
+                - @years.each do |year|
+                  %li
+                    %a{ href: "/?year=#{year}" }= year
     = yield
