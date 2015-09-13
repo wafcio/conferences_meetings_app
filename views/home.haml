@@ -28,7 +28,27 @@
                   = "(#{days} day)"
                 - else
                   = "(#{days} days)"
-              %img{ src: "/images/#{event[:conference].downcase.gsub(' ', '_').gsub('#', '')}.png", style: 'height: 50px;' }
+              %p
+                %img{ src: "/images/#{event[:conference].downcase.gsub(' ', '_').gsub('#', '')}.png", style: 'height: 50px;' }
+              .row
+                .col-xs-6
+                  - if event[:url]
+                    %p
+                      %span.glyphicon.glyphicon-link
+                      %a{ href: event[:url], target: '_blank' }= event[:url]
+                  - if event[:lanyrd_url]
+                    %p
+                      %img{ src: "/images/lanyrd-32x32.png", style: 'height: 14px;' }
+                      %a{ href: event[:lanyrd_url], target: '_blank' }= event[:lanyrd_url]
+                .col-xs-6
+                  - if event[:twitter]
+                    %p
+                      %i.fa.fa-twitter
+                      %a{ href: "https://twitter.com/#{event[:twitter].to_s.gsub('@', '')}", target: '_blank' }= event[:twitter]
+                  - if event[:hashtag]
+                    %p
+                      %img{ src: "/images/asterisk_orange-32x32.png", style: 'height: 14px;' }
+                      %a{ href: "https://twitter.com/search?q=%23#{event[:hashtag].to_s.gsub('#', '')}", target: '_blank' }= event[:hashtag]
 
 :javascript
   $(document).ready(function() {
