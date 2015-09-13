@@ -8,6 +8,7 @@
       .col-md-6
         %big
           %strong= month
+        %strong.year= @current_year
       .col-md-6
         - events.each do |event|
           .panel.panel-default
