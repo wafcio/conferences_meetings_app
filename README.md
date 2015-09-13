@@ -1,7 +1,7 @@
-Roda-ROM
+Meskond Static
 ================
 
-Simple app to introduce how to use ROM with roda app.
+Ruby Conference Directory
 
 How to run locally
 ------------------
@@ -15,8 +15,6 @@ How to run locally
     ```
 $ cat .env
 SECRET=XXX
-API_USER=XXX
-API_PASSWORD=XXX
     ```
 
 5. Check if all tests pass:
