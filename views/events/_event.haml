@@ -1,0 +1,6 @@
+.panel.panel-default
+  .panel-heading
+    = partial('events/event_heading', locals: { event: event })
+  .panel-body
+    = partial('events/event_body', locals: { event: event })
+    %hr

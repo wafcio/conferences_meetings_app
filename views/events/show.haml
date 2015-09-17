@@ -1,0 +1,10 @@
+#map.map{ style: 'height: 200px' }
+
+.container
+  %br
+  = render('events/_event', locals: { event: @event })
+
+:javascript
+  $(document).ready(function() {
+    initMap(#{@event[:lat]}, #{@event[:lng]}, #{[@event].to_json});
+  });

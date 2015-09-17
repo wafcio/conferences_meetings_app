@@ -1,7 +1,7 @@
-function initMap(data) {
+function initMap(lat, lng, data) {
   var myLatLng = {
-    lat: 53.5775,
-    lng: 23.106111
+    lat: lat || 53.5775,
+    lng: lng || 23.106111
   };
 
   var map = new google.maps.Map(document.getElementById('map'), {

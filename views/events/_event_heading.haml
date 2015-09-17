@@ -1,0 +1,6 @@
+.pull-left
+  %a{ href: "/events/#{event[:id]}" }= event[:conference]
+.pull-right
+  = "#{event[:city]}, #{event[:country]}"
+  %span.flag-icon{ class: "flag-icon-#{ISO3166::Country.find_country_by_name(event[:country]).alpha2.downcase}" }
+.clearfix

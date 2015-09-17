@@ -1,6 +1,10 @@
 class Events < ROM::Relation[:csv]
   register_as :events
 
+  def by_id(id)
+    restrict(id: id.to_i)
+  end
+
   def ordered
     order(:conference)
   end

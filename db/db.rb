@@ -1,9 +1,14 @@
 require 'rom-csv'
+require 'rom-json'
 require 'virtus'
 
 class DBClass
   CSV_SETTINGS = [
     { name: :default, options: { encoding: 'utf-8' } }
+  ]
+
+  JSON_SETTINGS = [
+    { name: :schedules }
   ]
 
   def setup
@@ -24,20 +29,23 @@ class DBClass
 
   private
 
-  def csv_settings
+  def rom_settings
     {}.tap do |settings|
       CSV_SETTINGS.each do |csv_setting|
-        settings[csv_setting[:name]] = [:csv, load_csv(csv_setting[:name]), csv_setting[:options]]
+        settings[csv_setting[:name]] = [:csv, expand_path(:csv, csv_setting[:name]), csv_setting[:options]]
+      end
+      JSON_SETTINGS.each do |json_setting|
+        settings[json_setting[:name]] = [:json, expand_path(:json, json_setting[:name])]
       end
     end
   end
 
   def production_settings
-    ROM.setup(csv_settings)
+    ROM.setup(rom_settings)
   end
 
   def dev_settings
-    ROM.setup(csv_settings)
+    ROM.setup(rom_settings)
   end
 
   def load_files
@@ -47,8 +55,8 @@ class DBClass
     end
   end
 
-  def load_csv(name)
-    File.expand_path("./csv/#{name}.csv", File.dirname(__FILE__))
+  def expand_path(kind, name)
+    File.expand_path("./#{kind}/#{name}.#{kind}", File.dirname(__FILE__))
   end
 
   def db_dir

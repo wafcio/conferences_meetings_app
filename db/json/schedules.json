@@ -1,0 +1,128 @@
+{
+  "schedules": [
+    {
+      "conference": "wroc_love.rb",
+      "year": "2015",
+      "entries": [
+        {
+          "title": "Unicorn Unix Magic Tricks",
+          "authors": ["Thorsten Ball"],
+          "date": "2015.03.13",
+          "start_time": "17:00",
+          "end_time": "18:00"
+        }, {
+          "title": "What if Clean Code is a scam",
+          "authors": ["Michał Taszycki"],
+          "date": "2015.03.13",
+          "start_time": "18:00",
+          "end_time": "19:00"
+        }, {
+          "title": "Lighting Talks",
+          "date": "2015.03.13",
+          "start_time": "19:00",
+          "end_time": "20:00"
+        }, {
+          "title": "Friday Night in Wrocław - Włodkowicza 21 (Dr. Brew)",
+          "date": "2015.03.13",
+          "start_time": "20:00",
+          "end_time": "?",
+          "break": "true"
+        }, {
+          "title": "Volt",
+          "authors": ["Ryan Stout"],
+          "date": "2015.03.14",
+          "start_time": "10:00",
+          "end_time": "11:00"
+        }, {
+          "title": "Lunch Break",
+          "date": "2015.03.14",
+          "start_time": "11:00",
+          "end_time": "13:30",
+          "break": "true"
+        }, {
+          "title": "Trailblazer",
+          "authors": ["Nick Sutterer"],
+          "date": "2015.03.14",
+          "start_time": "13:30",
+          "end_time": "14:30"
+        }, {
+          "title": "Panel \"Post-Rails world\"",
+          "authors": ["Nick Sutterer", "Ryan Stout", "Jim Gay"],
+          "date": "2015.03.14",
+          "start_time": "14:30",
+          "end_time": "16:00"
+        }, {
+          "title": "Nicolas Dermine,Live Code Music",
+          "authors": ["Nicolas Dermine"],
+          "date": "2015.03.14",
+          "start_time": "16:00",
+          "end_time": "17:00"
+        }, {
+          "title": "Event Storming",
+          "authors": ["Albert Brandolini"],
+          "date": "2015.03.14",
+          "start_time": "17:00",
+          "end_time": "18:00"
+        }, {
+          "title": "Lighting Talks",
+          "date": "2015.03.14",
+          "start_time": "18:00",
+          "end_time": "19:00"
+        }, {
+          "title": "Mleczarnia",
+          "date": "2015.03.14",
+          "start_time": "20:30",
+          "end_time": "23:59",
+          "break": "true"
+        }, {
+          "title": "From Rails-way to modular architecture",
+          "authors": ["Ivan Nemytchenko"],
+          "date": "2015.03.15",
+          "start_time": "11:00",
+          "end_time": "12:00"
+        }, {
+          "title": "Microservices",
+          "authors": ["Sebastian Sogamoso"],
+          "date": "2015.03.15",
+          "start_time": "12:00",
+          "end_time": "13:00"
+        }, {
+          "title": "Lunch Break",
+          "date": "2015.03.15",
+          "start_time": "13:00",
+          "end_time": "14:30",
+          "break": "true"
+        }, {
+          "title": "Panel \"DDD/CQRS/ES\" | Questions",
+          "authors": ["Albert Brandolini", "Andrzej Krzywda", "Mirosław Pragłowski", "Sebastian Sogamoso"],
+          "date": "2015.03.15",
+          "start_time": "14:30",
+          "end_time": "16:00"
+        }, {
+          "title": "The Missing System",
+          "authors": ["Jim Gay"],
+          "date": "2015.03.15",
+          "start_time": "16:00",
+          "end_time": "17:00"
+        }, {
+          "title": "ClojureScript + React.js",
+          "authors": ["Norbert Wójtowicz"],
+          "date": "2015.03.15",
+          "start_time": "17:00",
+          "end_time": "18:00"
+        }, {
+          "title": "Lighting Talks",
+          "date": "2015.03.15",
+          "start_time": "18:00",
+          "end_time": "19:00"
+        }, {
+          "title": "Bierhalle",
+          "date": "2015.03.15",
+          "start_time": "20:00",
+          "end_time": "23:59",
+          "break": "true"
+        }
+      ]
+    }
+  ]
+}

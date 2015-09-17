@@ -1,3 +1,20 @@
+GIT
+  remote: git://github.com/rom-rb/rom-json.git
+  revision: 0c0936b7e94fc9928bef5ec0ca2b4344decf3008
+  specs:
+    rom-json (0.0.2.rc2)
+      rom (~> 0.9.0.rc1)
+
+GIT
+  remote: git://github.com/rom-rb/rom.git
+  revision: a1aefa69e7e2968ac840e55ea9d90c910880d2e2
+  specs:
+    rom (0.9.1)
+      equalizer (~> 0.0, >= 0.0.9)
+      rom-mapper (~> 0.2, >= 0.2.0)
+      rom-support (~> 0.1, >= 0.1.0)
+      transproc (~> 0.3, >= 0.3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -42,11 +59,6 @@ GEM
     roda (2.5.1)
       rack
     roda-symbolized_params (0.0.2)
-    rom (0.9.1)
-      equalizer (~> 0.0, >= 0.0.9)
-      rom-mapper (~> 0.2, >= 0.2.0)
-      rom-support (~> 0.1, >= 0.1.0)
-      transproc (~> 0.3, >= 0.3.0)
     rom-csv (0.2.0)
       rom (~> 0.9, >= 0.9.0)
     rom-mapper (0.2.0)
@@ -97,8 +109,9 @@ DEPENDENCIES
   request_store
   roda
   roda-symbolized_params
-  rom
+  rom!
   rom-csv
+  rom-json!
   rspec
   tilt
   virtus
