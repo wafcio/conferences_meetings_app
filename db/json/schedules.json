@@ -103,6 +103,181 @@
           "break": "true"
         }
       ]
+    },
+    {
+      "conference": "Bath Ruby",
+      "year": "2015",
+      "entries": [
+        {
+          "title": "Registration",
+          "date": "2015.03.13",
+          "start_time": "08:30",
+          "break": "true"
+        }, {
+          "title": "Welcome",
+          "date": "2015.03.13",
+          "start_time": "09:30"
+        }, {
+          "title": "Principles of Play",
+          "authors": ["Linda Liukas"],
+          "date": "2015.03.13",
+          "start_time": "09:40"
+        }, {
+          "title": "Break",
+          "date": "2015.03.13",
+          "start_time": "10:10",
+          "break": "true"
+        }, {
+          "title": "TBC",
+          "authors": ["Ben Orenstein"],
+          "date": "2015.03.13",
+          "start_time": "10:30"
+        }, {
+          "title": "Break",
+          "date": "2015.03.13",
+          "start_time": "11:00",
+          "break": "true"
+        }, {
+          "title": "Learning Code Good",
+          "authors": ["Saron Yitbarek"],
+          "date": "2015.03.13",
+          "start_time": "11:15"
+        }, {
+          "title": "Break",
+          "date": "2015.03.13",
+          "start_time": "11:55",
+          "break": "true"
+        }, {
+          "title": "Lighting Talks",
+          "date": "2015.03.13",
+          "start_time": "12:15"
+        }, {
+          "title": "Lunch",
+          "date": "2015.03.13",
+          "start_time": "12:45",
+          "break": "true"
+        }, {
+          "title": "Here Be Dragons",
+          "authors": ["Katrina Owen"],
+          "date": "2015.03.13",
+          "start_time": "14:00"
+        }, {
+          "title": "Break",
+          "date": "2015.03.13",
+          "start_time": "14:30",
+          "break": "true"
+        }, {
+          "title": "A Lever for the Mind",
+          "authors": ["Tom Stuart"],
+          "date": "2015.03.13",
+          "start_time": "14:45"
+        }, {
+          "title": "Break",
+          "date": "2015.03.13",
+          "start_time": "15:25",
+          "break": "true"
+        }, {
+          "title": "Lighting Talks",
+          "date": "2015.03.13",
+          "start_time": "15:45"
+        }, {
+          "title": "Break",
+          "date": "2015.03.13",
+          "start_time": "16:15",
+          "break": "true"
+        }, {
+          "title": "Nothing is Something",
+          "authors": ["Sandi Metz"],
+          "date": "2015.03.13",
+          "start_time": "16:30"
+        }, {
+          "title": "Wrap Up",
+          "date": "2015.03.13",
+          "start_time": "17:15",
+          "break": "true"
+        }, {
+          "title": "After Party",
+          "date": "2015.03.13",
+          "start_time": "17:30",
+          "break": "true"
+        }
+      ]
+    }, {
+      "conference": "RubyConfLT",
+      "year": "2015",
+      "entries": [
+        {
+          "title": "See You On The Trail",
+          "authors": ["Nick Sutterer"],
+          "date": "2015.03.21",
+          "start_time": "10:00"
+        }, {
+          "title": "Bundler to Rubygems - Long Live the Gemfile",
+          "authors": ["Michał Papis"],
+          "date": "2015.03.21",
+          "start_time": "10:50"
+        }, {
+          "title": "Coffee break",
+          "date": "2015.03.21",
+          "start_time": "11:40",
+          "break": "true"
+        }, {
+          "title": "1up! Power-ups for your development career",
+          "authors": ["Ben Lovell"],
+          "date": "2015.03.21",
+          "start_time": "11:55"
+        }, {
+          "title": "Move Away from Rails",
+          "authors": ["Danielius Visockas"],
+          "date": "2015.03.21",
+          "start_time": "12:45"
+        }, {
+          "title": "Lunch",
+          "date": "2015.03.21",
+          "start_time": "13:10",
+          "break": "true"
+        }, {
+          "title": "Bundle Open... Your Mind!",
+          "authors": ["Aaron Cruz"],
+          "date": "2015.03.21",
+          "start_time": "14:00"
+        }, {
+          "title": "Get Your Shoes (Back) On!",
+          "authors": ["Tobias Pfeiffer"],
+          "date": "2015.03.21",
+          "start_time": "14:50"
+        }, {
+          "title": "My Month with Ruby",
+          "authors": ["Alex Tomovski"],
+          "date": "2015.03.21",
+          "start_time": "15:15"
+        }, {
+          "title": "Coffee break",
+          "date": "2015.03.21",
+          "start_time": "15:40",
+          "break": "true"
+        }, {
+          "title": "The Elements of Style in Ruby",
+          "authors": ["Bozhidar Batsov"],
+          "date": "2015.03.21",
+          "start_time": "15:55"
+        }, {
+          "title": "Hackathons on Rails (A Ruby Love Story)",
+          "authors": ["Cristiano Betta"],
+          "date": "2015.03.21",
+          "start_time": "16:45"
+        }, {
+          "title": "Hypermedia in Practice",
+          "authors": ["Arne Brasseur"],
+          "date": "2015.03.21",
+          "start_time": "17:10"
+        }, {
+          "title": "Afterparty",
+          "date": "2015.03.21",
+          "start_time": "18:00",
+          "break": "true"
+        }
+      ]
     }
   ]
 }
