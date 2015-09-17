@@ -9,7 +9,7 @@
         %table.table.table-bordered
           %thead
             %tr
-              %th{ colspan: 2 }= day[:date]
+              %th{ colspan: 2 }= "#{day[:date].strftime("%d.%m.%Y")} (#{day[:date].strftime("%A")})"
           %tbody
             - day[:entries].each do |entry|
               - tr_css_class = entry[:break] && !entry[:break].nil? ? 'active' : nil

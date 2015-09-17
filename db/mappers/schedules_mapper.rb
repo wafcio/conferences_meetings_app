@@ -22,4 +22,10 @@ class SchedulesMapper < ROM::Mapper
   step do
     group entries: %i(title authors start_time break)
   end
+
+  step do
+    attribute :date do |attr|
+      Date.parse(attr)
+    end
+  end
 end
