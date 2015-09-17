@@ -4,3 +4,18 @@
   .panel-body
     = partial('events/event_body', locals: { event: event })
     %hr
+    - @schedule.each do |day|
+      %p
+        %table.table.table-bordered
+          %thead
+            %tr
+              %th{ colspan: 2 }= day[:date]
+          %tbody
+            - day[:entries].each do |entry|
+              - tr_css_class = entry[:break] && !entry[:break].nil? ? 'active' : nil
+              %tr{ class: tr_css_class }
+                %td.col-xs-2.text-center= entry[:start_time]
+                - if entry[:authors] && !entry[:authors].empty?
+                  %td.col-xs-10= "#{entry[:title]} (#{entry[:authors].join(', ')})"
+                - else
+                  %td.col-xs-10= entry[:title]
