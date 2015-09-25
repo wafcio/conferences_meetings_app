@@ -278,6 +278,389 @@
           "break": "true"
         }
       ]
+    },
+    {
+      "conference": "Full Stack Fest",
+      "year": "2015",
+      "entries": [
+        {
+          "title": "Registration & coffee By Hitfox",
+          "date": "2015.09.01",
+          "start_time": "08:00",
+          "end_time": "09:00",
+          "break": "true"
+        }, {
+          "title": "Welome",
+          "date": "2015.09.01",
+          "start_time": "09:00",
+          "end_time": "09:15"
+        }, {
+          "title": "Ruby 3.0",
+          "authors": ["Yukihiro Matsumoto"],
+          "video": "https://youtu.be/48iKjUcENRE",
+          "date": "2015.09.01",
+          "start_time": "09:15",
+          "end_time": "10:15"
+        }, {
+          "title": "Orders of Magnitude",
+          "authors": ["Davy Stevenson"],
+          "video": "https://youtu.be/_YyzLKhjpiI",
+          "date": "2015.09.01",
+          "start_time": "10:15",
+          "end_time": "10:55"
+        }, {
+          "title": "Breakfest by Hitfox",
+          "date": "2015.09.01",
+          "start_time": "10:55",
+          "end_time": "11:25",
+          "break": "true"
+        }, {
+          "title": "Running Ruby Apps",
+          "authors": ["Bryan Liles"],
+          "video": "https://youtu.be/xytTA4dKaP0",
+          "date": "2015.09.01",
+          "start_time": "11:25",
+          "end_time": "12:05"
+        }, {
+          "title": "How to Performance",
+          "authors": ["Eileen Uchitelle"],
+          "video": "https://youtu.be/HbLPLdLvnVo",
+          "date": "2015.09.01",
+          "start_time": "12:05",
+          "end_time": "12:45"
+        }, {
+          "title": "Lunch",
+          "date": "2015.09.01",
+          "start_time": "12:45",
+          "end_time": "14:45",
+          "break": "true"
+        }, {
+          "title": "Request and Response",
+          "authors": ["Aaron Patterson"],
+          "date": "2015.09.01",
+          "start_time": "14:45",
+          "end_time": "15:25"
+        }, {
+          "title": "Beyond JSON: Improving inter-app communication",
+          "authors": ["Aaron Quint"],
+          "date": "2015.09.01",
+          "start_time": "15:25",
+          "end_time": "16:05"
+        }, {
+          "title": "Coffee Break by Hitfox",
+          "date": "2015.09.01",
+          "start_time": "16:05",
+          "end_time": "16:35",
+          "break": "true"
+        }, {
+          "title": "Nothing is Something",
+          "authors": ["Sandi Metz"],
+          "date": "2015.09.01",
+          "start_time": "16:35",
+          "end_time": "17:15"
+        }, {
+          "title": "Skynet for Beginners - Using a Neutral Network to Train a Ruby Twitter bot",
+          "authors": ["Rin Raeuber"],
+          "date": "2015.09.01",
+          "start_time": "17:15",
+          "end_time": "17:55"
+        }, {
+          "title": "Lighting Talks",
+          "date": "2015.09.01",
+          "start_time": "17:55",
+          "end_time": "18:35"
+        }, {
+          "title": "Meet up at L'Ovella Negra by Fyber",
+          "date": "2015.09.01",
+          "start_time": "20:30",
+          "end_time": "00:30",
+          "break": "true"
+        }, {
+          "title": "Rewriting a Ruby C Extension in Rust: How a Naive One-Liner Beats C",
+          "authors": ["Yehuda Katz"],
+          "date": "2015.09.02",
+          "start_time": "09:15",
+          "end_time": "10:15"
+        }, {
+          "title": "First Do Not Harm: Surgical Refactoring",
+          "authors": ["Nell Shamrell"],
+          "date": "2015.09.02",
+          "start_time": "10:15",
+          "end_time": "10:55"
+        }, {
+          "title": "Breakfest by Hitfox",
+          "date": "2015.09.02",
+          "start_time": "10:55",
+          "end_time": "11:25",
+          "break": "true"
+        }, {
+          "title": "How to Build a Skyscraper",
+          "authors": ["Ernie Miller"],
+          "date": "2015.09.02",
+          "start_time": "11:25",
+          "end_time": "12:05"
+        }, {
+          "title": "Blending Functional and OO Programming in Ruby",
+          "authors": ["Piotr Solnica"],
+          "date": "2015.09.02",
+          "start_time": "12:05",
+          "end_time": "12:45"
+        }, {
+          "title": "Lunch",
+          "date": "2015.09.02",
+          "start_time": "12:45",
+          "end_time": "14:45",
+          "break": "true"
+        }, {
+          "title": "Fun with Lambdas!",
+          "authors": ["Corey Haines"],
+          "date": "2015.09.02",
+          "start_time": "14:45",
+          "end_time": "15:25"
+        }, {
+          "title": "Extreme Object-Oriented Ruby",
+          "authors": ["John Cinnamond"],
+          "date": "2015.09.02",
+          "start_time": "15:25",
+          "end_time": "16:05"
+        }, {
+          "title": "Coffee Break by Hitfox",
+          "date": "2015.09.02",
+          "start_time": "16:05",
+          "end_time": "16:35",
+          "break": "true"
+        }, {
+          "title": "Shall I Compare Thee to a Line of Code?",
+          "authors": ["Lauren Scott"],
+          "date": "2015.09.02",
+          "start_time": "16:35",
+          "end_time": "17:15"
+        }, {
+          "title": "Why I Ruby",
+          "authors": ["Liz Abinante"],
+          "date": "2015.09.02",
+          "start_time": "17:15",
+          "end_time": "17:55"
+        }, {
+          "title": "Club Party by Cookpad & Mandrill",
+          "date": "2015.09.02",
+          "start_time": "20:30",
+          "end_time": "05:00",
+          "break": "true"
+        }, {
+          "title": "Full Stack Hack",
+          "authors": ["Typeform I/O"],
+          "date": "2015.09.03",
+          "start_time": "09:00",
+          "end_time": "00:00"
+        }, {
+          "title": "Diving into ClojureScript",
+          "authors": ["Joaquin Oltra"],
+          "date": "2015.09.03",
+          "start_time": "09:30",
+          "end_time": "13:30"
+        }, {
+          "title": "Building highly scalable web apps with Go",
+          "authors": ["Francesc Campoy"],
+          "date": "2015.09.03",
+          "start_time": "09:30",
+          "end_time": "13:30"
+        }, {
+          "title": "Creating a Real-Time Monitoring App for Twitter Using React.js",
+          "authors": ["Erik Wendel", "Kim Joar Bekkelund"],
+          "date": "2015.09.03",
+          "start_time": "09:30",
+          "end_time": "17:30"
+        }, {
+          "title": "Power up your development with RubyMine/WebStorm",
+          "authors": ["Tatioana Vasilyeva", "Ekaterina Prigara"],
+          "date": "2015.09.03",
+          "start_time": "11:30",
+          "end_time": "13:30"
+        }, {
+          "title": "Rallyscript: IoT, Node and Raspberries",
+          "authors": ["Leif Terje Fonnes", "Lars Soraas"],
+          "date": "2015.09.03",
+          "start_time": "15:00",
+          "end_time": "19:00"
+        }, {
+          "title": "React on Rails",
+          "authors": ["Vipul A M"],
+          "date": "2015.09.03",
+          "start_time": "15:00",
+          "end_time": "19:00"
+        }, {
+          "title": "Presentation and discussion: Evolving your infrastructure for scale",
+          "authors": ["Louis Dunne"],
+          "date": "2015.09.03",
+          "start_time": "15:00",
+          "end_time": "16:30"
+        }, {
+          "title": "Registration & coffee By Hitfox",
+          "date": "2015.09.04",
+          "start_time": "08:00",
+          "end_time": "09:00",
+          "break": "true"
+        }, {
+          "title": "Welome",
+          "date": "2015.09.04",
+          "start_time": "09:00",
+          "end_time": "09:15"
+        }, {
+          "title": "The business of front-end development",
+          "authors": ["Rachel Andrew"],
+          "video": "https://youtu.be/Fci-rM035XU",
+          "date": "2015.09.04",
+          "start_time": "09:15",
+          "end_time": "10:15"
+        }, {
+          "title": "Lessons learnt visualising real-world cities in 3D",
+          "authors": ["Robin Hawkes"],
+          "video": "https://youtu.be/327-43fmOws",
+          "date": "2015.09.04",
+          "start_time": "10:15",
+          "end_time": "10:55"
+        }, {
+          "title": "Breakfest by Hitfox",
+          "date": "2015.09.04",
+          "start_time": "10:55",
+          "end_time": "11:25",
+          "break": "true"
+        }, {
+          "title": "Transducers FTW!",
+          "authors": ["Massimiliano Mantione"],
+          "video": "https://youtu.be/MrDvPB8FSMQ",
+          "date": "2015.09.04",
+          "start_time": "11:25",
+          "end_time": "12:05"
+        }, {
+          "title": "Procedural Content in JS",
+          "authors": ["Nick Heiner"],
+          "video": "https://youtu.be/hLQAfANMnFw",
+          "date": "2015.09.04",
+          "start_time": "12:05",
+          "end_time": "12:45"
+        }, {
+          "title": "Lunch",
+          "date": "2015.09.04",
+          "start_time": "12:45",
+          "end_time": "14:45",
+          "break": "true"
+        }, {
+          "title": "The internet of browsers",
+          "authors": ["Ben Foxall"],
+          "date": "2015.09.04",
+          "start_time": "14:45",
+          "end_time": "15:25"
+        }, {
+          "title": "Algorithms for Animation - Simple formulas to activate your UI",
+          "authors": ["Courtney Hemphill"],
+          "date": "2015.09.04",
+          "start_time": "15:25",
+          "end_time": "16:05"
+        }, {
+          "title": "Coffee Break by Hitfox",
+          "date": "2015.09.04",
+          "start_time": "16:05",
+          "end_time": "16:35",
+          "break": "true"
+        }, {
+          "title": "Picking the Right Tool For the Job: HTML5 vs Unity",
+          "authors": ["Jesse Freeman"],
+          "date": "2015.09.04",
+          "start_time": "16:35",
+          "end_time": "17:15"
+        }, {
+          "title": "Natural physics simulations and canvas hackery",
+          "authors": ["Matt Keas"],
+          "date": "2015.09.04",
+          "start_time": "17:15",
+          "end_time": "17:55"
+        }, {
+          "title": "Lighting Talks",
+          "date": "2015.09.04",
+          "start_time": "17:55",
+          "end_time": "18:35"
+        }, {
+          "title": "Meet up at Fabrica Moritz by Digital Origin",
+          "date": "2015.09.04",
+          "start_time": "20:30",
+          "end_time": "00:30",
+          "break": "true"
+        }, {
+          "title": "Inside Glimmer: What Makes Ember's Rendering Engine Tick",
+          "authors": ["Tom Dale"],
+          "date": "2015.09.05",
+          "start_time": "09:15",
+          "end_time": "10:15"
+        }, {
+          "title": "Permanent webapps",
+          "authors": ["James Halliday"],
+          "date": "2015.09.05",
+          "start_time": "10:15",
+          "end_time": "10:55"
+        }, {
+          "title": "Breakfest by Hitfox",
+          "date": "2015.09.05",
+          "start_time": "10:55",
+          "end_time": "11:25",
+          "break": "true"
+        }, {
+          "title": "Lessons from webBox, customizing a Javascript based OS",
+          "authors": ["Alex Saladrigas"],
+          "date": "2015.09.05",
+          "start_time": "11:25",
+          "end_time": "12:05"
+        }, {
+          "title": "The Road To WebVR",
+          "authors": ["Jaume Sanchez"],
+          "date": "2015.09.05",
+          "start_time": "12:05",
+          "end_time": "12:45"
+        }, {
+          "title": "Lunch",
+          "date": "2015.09.05",
+          "start_time": "12:45",
+          "end_time": "14:45",
+          "break": "true"
+        }, {
+          "title": "The Pixel Factory",
+          "authors": ["Steven Wittens"],
+          "date": "2015.09.05",
+          "start_time": "14:45",
+          "end_time": "15:25"
+        }, {
+          "title": "Node and The New Open Source",
+          "authors": ["Mikeal Rogers"],
+          "date": "2015.09.05",
+          "start_time": "15:25",
+          "end_time": "16:05"
+        }, {
+          "title": "Coffee Break by Hitfox",
+          "date": "2015.09.05",
+          "start_time": "16:05",
+          "end_time": "16:35",
+          "break": "true"
+        }, {
+          "title": "Hacking The Front-End",
+          "authors": ["Alex Sexton"],
+          "date": "2015.09.05",
+          "start_time": "16:35",
+          "end_time": "17:15"
+        }, {
+          "title": "Functional programming and curry cooking in JS",
+          "authors": ["Stefanie Schirmer"],
+          "date": "2015.09.05",
+          "start_time": "17:15",
+          "end_time": "17:55"
+        }, {
+          "title": "Beach Party by Cookpad & Mandrill",
+          "date": "2015.09.05",
+          "start_time": "20:30",
+          "end_time": "02:00",
+          "break": "true"
+        }
+      ]
     }
   ]
 }

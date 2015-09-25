@@ -3,14 +3,16 @@ class SchedulesMapper < ROM::Mapper
   register_as :schedules
 
   step do
-    ungroup entries: %w(title authors date start_time break)
+    ungroup entries: %w(title authors video date start_time end_time break)
   end
 
   step do
     attribute :title, from: "title"
     attribute :authors, from: "authors"
+    attribute :video, from: "video"
     attribute :date, from: "date"
     attribute :start_time, from: "start_time"
+    attribute :end_time, from: "end_time"
     attribute :break, from: "break"
   end
 
@@ -20,7 +22,7 @@ class SchedulesMapper < ROM::Mapper
   end
 
   step do
-    group entries: %i(title authors start_time break)
+    group entries: %i(title authors video start_time end_time break)
   end
 
   step do

@@ -9,13 +9,17 @@
         %table.table.table-bordered
           %thead
             %tr
-              %th{ colspan: 2 }= "#{day[:date].strftime("%d.%m.%Y")} (#{day[:date].strftime("%A")})"
+              %th{ colspan: 3 }= "#{day[:date].strftime("%d.%m.%Y")} (#{day[:date].strftime("%A")})"
           %tbody
             - day[:entries].each do |entry|
               - tr_css_class = entry[:break] && !entry[:break].nil? ? 'active' : nil
               %tr{ class: tr_css_class }
                 %td.col-xs-2.text-center= entry[:start_time]
                 - if entry[:authors] && !entry[:authors].empty?
-                  %td.col-xs-10= "#{entry[:title]} (#{entry[:authors].join(', ')})"
+                  %td.col-xs-9= "#{entry[:title]} (#{entry[:authors].join(', ')})"
                 - else
-                  %td.col-xs-10= entry[:title]
+                  %td.col-xs-9= entry[:title]
+                %td.text-center
+                  - if entry[:video] && entry[:video] != ''
+                    %a{ href: entry[:video], target: "_blank" }
+                      %i.fa.fa-youtube-play
