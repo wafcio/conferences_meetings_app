@@ -7,15 +7,18 @@
         {
           "title": "Unicorn Unix Magic Tricks",
           "authors": ["Thorsten Ball"],
+          "video": "https://youtu.be/ZSRE-rGcEPs?list=PLoGBNJiQoqRAv7J_2_lZvl47_1Wg7bIPD",
           "date": "2015.03.13",
           "start_time": "17:00"
         }, {
           "title": "What if Clean Code is a scam",
           "authors": ["Michał Taszycki"],
+          "video": "https://youtu.be/JIu889NJYbM?list=PLoGBNJiQoqRAv7J_2_lZvl47_1Wg7bIPD",
           "date": "2015.03.13",
           "start_time": "18:00"
         }, {
           "title": "Lighting Talks",
+          "video": "https://youtu.be/4grD-1Cde08?list=PLoGBNJiQoqRAv7J_2_lZvl47_1Wg7bIPD",
           "date": "2015.03.13",
           "start_time": "19:00"
         }, {
@@ -26,6 +29,7 @@
         }, {
           "title": "Volt",
           "authors": ["Ryan Stout"],
+          "video": "https://youtu.be/FgOLP4bMX90?list=PLoGBNJiQoqRAv7J_2_lZvl47_1Wg7bIPD",
           "date": "2015.03.14",
           "start_time": "10:00"
         }, {
@@ -36,25 +40,30 @@
         }, {
           "title": "Trailblazer",
           "authors": ["Nick Sutterer"],
+          "video": "https://youtu.be/K7P7PcO8ra4?list=PLoGBNJiQoqRAv7J_2_lZvl47_1Wg7bIPD",
           "date": "2015.03.14",
           "start_time": "13:30"
         }, {
           "title": "Panel \"Post-Rails world\"",
           "authors": ["Nick Sutterer", "Ryan Stout", "Jim Gay"],
+          "video": "https://youtu.be/X2sJMVGPZ_E?list=PLoGBNJiQoqRAv7J_2_lZvl47_1Wg7bIPD",
           "date": "2015.03.14",
           "start_time": "14:30"
         }, {
-          "title": "Nicolas Dermine,Live Code Music",
+          "title": "Live Code Music",
           "authors": ["Nicolas Dermine"],
+          "video": "https://youtu.be/5cZfqXiivdA?list=PLoGBNJiQoqRAv7J_2_lZvl47_1Wg7bIPD",
           "date": "2015.03.14",
           "start_time": "16:00"
         }, {
           "title": "Event Storming",
           "authors": ["Albert Brandolini"],
+          "video": "https://youtu.be/veTVAN0oEkQ?list=PLoGBNJiQoqRAv7J_2_lZvl47_1Wg7bIPD",
           "date": "2015.03.14",
           "start_time": "17:00"
         }, {
           "title": "Lighting Talks",
+          "video": "https://youtu.be/5SpdE5doLog?list=PLoGBNJiQoqRAv7J_2_lZvl47_1Wg7bIPD",
           "date": "2015.03.14",
           "start_time": "18:00"
         }, {
@@ -65,11 +74,13 @@
         }, {
           "title": "From Rails-way to modular architecture",
           "authors": ["Ivan Nemytchenko"],
+          "video": "https://youtu.be/al2LZ-7qX7k?list=PLoGBNJiQoqRAv7J_2_lZvl47_1Wg7bIPD",
           "date": "2015.03.15",
           "start_time": "11:00"
         }, {
           "title": "Microservices",
           "authors": ["Sebastian Sogamoso"],
+          "video": "https://youtu.be/gphGTGzas98?list=PLoGBNJiQoqRAv7J_2_lZvl47_1Wg7bIPD",
           "date": "2015.03.15",
           "start_time": "12:00"
         }, {
@@ -80,20 +91,24 @@
         }, {
           "title": "Panel \"DDD/CQRS/ES\" | Questions",
           "authors": ["Albert Brandolini", "Andrzej Krzywda", "Mirosław Pragłowski", "Sebastian Sogamoso"],
+          "video": "https://youtu.be/Rh2A96rpGpY?list=PLoGBNJiQoqRAv7J_2_lZvl47_1Wg7bIPD",
           "date": "2015.03.15",
           "start_time": "14:30"
         }, {
           "title": "The Missing System",
           "authors": ["Jim Gay"],
+          "video": "https://youtu.be/huRWC7iFZxM?list=PLoGBNJiQoqRAv7J_2_lZvl47_1Wg7bIPD",
           "date": "2015.03.15",
           "start_time": "16:00"
         }, {
           "title": "ClojureScript + React.js",
           "authors": ["Norbert Wójtowicz"],
+          "video": "https://youtu.be/6_mbxaRDA-s?list=PLoGBNJiQoqRAv7J_2_lZvl47_1Wg7bIPD",
           "date": "2015.03.15",
           "start_time": "17:00"
         }, {
           "title": "Lighting Talks",
+          "video": "https://youtu.be/C6zIIOwVX3Q?list=PLoGBNJiQoqRAv7J_2_lZvl47_1Wg7bIPD",
           "date": "2015.03.15",
           "start_time": "18:00"
         }, {
