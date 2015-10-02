@@ -352,12 +352,14 @@
         }, {
           "title": "Request and Response",
           "authors": ["Aaron Patterson"],
+          "video": "https://youtu.be/1EeWXojdqvU",
           "date": "2015.09.01",
           "start_time": "14:45",
           "end_time": "15:25"
         }, {
           "title": "Beyond JSON: Improving inter-app communication",
           "authors": ["Aaron Quint"],
+          "video": "https://youtu.be/WnUccA7us4A",
           "date": "2015.09.01",
           "start_time": "15:25",
           "end_time": "16:05"
@@ -370,12 +372,14 @@
         }, {
           "title": "Nothing is Something",
           "authors": ["Sandi Metz"],
+          "video": "https://youtu.be/9mLK_8hKii8",
           "date": "2015.09.01",
           "start_time": "16:35",
           "end_time": "17:15"
         }, {
           "title": "Skynet for Beginners - Using a Neutral Network to Train a Ruby Twitter bot",
           "authors": ["Rin Raeuber"],
+          "video": "https://youtu.be/KlDMZyEwRzk",
           "date": "2015.09.01",
           "start_time": "17:15",
           "end_time": "17:55"
@@ -393,6 +397,7 @@
         }, {
           "title": "Rewriting a Ruby C Extension in Rust: How a Naive One-Liner Beats C",
           "authors": ["Yehuda Katz"],
+          "video": "https://youtu.be/2BdJeSC4FFI",
           "date": "2015.09.02",
           "start_time": "09:15",
           "end_time": "10:15"
@@ -564,12 +569,14 @@
         }, {
           "title": "The internet of browsers",
           "authors": ["Ben Foxall"],
+          "video": "https://youtu.be/frWlRtT5UCU",
           "date": "2015.09.04",
           "start_time": "14:45",
           "end_time": "15:25"
         }, {
           "title": "Algorithms for Animation - Simple formulas to activate your UI",
           "authors": ["Courtney Hemphill"],
+          "videos": "https://youtu.be/2UTvELjqmb0",
           "date": "2015.09.04",
           "start_time": "15:25",
           "end_time": "16:05"
@@ -582,12 +589,14 @@
         }, {
           "title": "Picking the Right Tool For the Job: HTML5 vs Unity",
           "authors": ["Jesse Freeman"],
+          "video": "https://youtu.be/q8ytiUxG7z8",
           "date": "2015.09.04",
           "start_time": "16:35",
           "end_time": "17:15"
         }, {
           "title": "Natural physics simulations and canvas hackery",
           "authors": ["Matt Keas"],
+          "video": "https://youtu.be/O_ydH7U2NUY",
           "date": "2015.09.04",
           "start_time": "17:15",
           "end_time": "17:55"
@@ -605,6 +614,7 @@
         }, {
           "title": "Inside Glimmer: What Makes Ember's Rendering Engine Tick",
           "authors": ["Tom Dale"],
+          "video": "https://youtu.be/VY-r7Ac06ho",
           "date": "2015.09.05",
           "start_time": "09:15",
           "end_time": "10:15"
