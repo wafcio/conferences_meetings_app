@@ -19,8 +19,19 @@ class App < Roda
   plugin :hooks
   plugin :all_verbs
   plugin :symbolized_params
-  plugin :assets, css: ['meskond.css'], js: ['meskond.js']
-  plugin :static, ['/images'], root: 'assets'
+  plugin :static, ['/images', '/fonts'], root: 'assets'
+  plugin :assets,
+    css: %w(bootstrap.min.css bootstrap-theme.min.css font-awesome.min.css gh-fork-ribbon.min.css flag-icon.min.css
+            meskond.css),
+    css_opts: { style: :compressed, cache: false },
+    compiled_css_dir: "stylesheets",
+    compiled_js_dir: "javascripts",
+    compiled_path: nil,
+    precompiled: "compiled_assets.json",
+    prefix: nil,
+    js:%w(jquery-2.1.4.min.js bootstrap.min.js meskond.js)
+
+    # %script{ src: "http://maps.googleapis.com/maps/api/js?libraries=weather,geometry,visualization,places,drawing&amp;sensor=false" }
 
   if [:production, :development].include?(ENV.fetch('RACK_ENV').to_sym)
     use Rack::CommonLogger, Logger.new(STDOUT)

@@ -4,19 +4,9 @@
     %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}/
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
     %title Meskond - Conference Directory
-
-    %link{ href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css", rel: "stylesheet" }
-    %link{ href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css", rel: "stylesheet" }
-    %link{ href: "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css", rel: "stylesheet" }
-    %link{ href: "//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css", rel: "stylesheet" }
-    %link{ href: "http://lipis.github.io/flag-icon-css/css/flag-icon.css", rel: "stylesheet" }
-
-    %script{ type: "text/javascript",  src: "http://code.jquery.com/jquery-2.1.4.min.js" }
-    %script{ src: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" }
-    %script{ src: "http://maps.googleapis.com/maps/api/js?libraries=weather,geometry,visualization,places,drawing&amp;sensor=false" }
-
     = assets(:css)
     = assets(:js)
+    %script{ src: "http://maps.googleapis.com/maps/api/js?libraries=weather,geometry,visualization,places,drawing&amp;sensor=false" }
   %body
     .github-fork-ribbon-wrapper.right
       .github-fork-ribbon
