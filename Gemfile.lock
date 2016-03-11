@@ -50,7 +50,7 @@ GEM
     lotus-validations (0.3.2)
       lotus-utils (~> 0.4)
     minitest (5.8.0)
-    puma (2.13.4)
+    puma (3.1.0)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -115,3 +115,6 @@ DEPENDENCIES
   rspec
   tilt
   virtus
+
+BUNDLED WITH
+   1.11.2
